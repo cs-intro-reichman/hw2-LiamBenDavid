@@ -8,9 +8,9 @@ public class CalcPi {
         int currentIteration = 1;
         while (currentIteration <= iterations){
             if (currentIteration % 2 == 0){
-                approximateValue = approximateValue + (1.0/divisor);
-            } else{
                 approximateValue = approximateValue - (1.0/divisor);
+            } else{
+                approximateValue = approximateValue + (1.0/divisor);
             }
             divisor += 2;
             currentIteration += 1;
